@@ -1,32 +1,28 @@
 #include "main.h"
+
 /**
- * _atoi - convert string to an integer.
- * @s: pointer to a character string.
- *
- * Return: void.
+ * _atoi - convert to a int
+ * @s:string
+ * Return:int
  */
 
 int _atoi(char *s)
 {
-	int sign;
-	unsigned int num;
-	char *temp;
+int i, j, n, x;
 
-	temp = s;
-	num = 0;
-	sign = 1;
-	while (*temp != '\0' && (*temp < '0' || *temp > '9'))
+	i = n = 0;
+	x = 1;
+	while ((s[i] < '0' || s[i] > '9') && (s[i] != '\0'))
 	{
-		if (*temp == '-')
-			sign *= -1;
-		temp++;
+		if (s[i] == '-')
+			x *= -1;
+		i++;
 	}
-	if (*temp != '\0')
+	j = i;
+	while ((s[j] >= '0') && (s[j] <= '9'))
 	{
-		do {
-			num = num * 10 + (*temp - '0');
-			temp++;
-		} while (*temp >= '0' && *temp <= '9');
+		n = (n * 10) + x * ((s[j]) - '0');
+		j++;
 	}
-	return (num * sign);
+	return (n);
 }
