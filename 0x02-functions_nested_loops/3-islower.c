@@ -1,17 +1,14 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - main block
- * Return: Always return main
- *
- */
-int main(void)
+ * _islower - check lower c
+ * @c: letter
+ * Return: 1 if c is lower 0 if not
+*/
+int _islower(int c)
 {
-	int n;
-	((0));
-	n = () - / 2;
-        (r + '0');
 
-	if (n > 0)
-	return 0
-
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
+}
