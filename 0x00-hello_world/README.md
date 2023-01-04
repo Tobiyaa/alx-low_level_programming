@@ -1,1 +1,1 @@
-C - Hello, world
+This is a directory for initial c files
