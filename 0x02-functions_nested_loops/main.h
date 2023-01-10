@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #ifndef HOLBERTON_H_INCLUDED
 #define HOLBERTON_H_INCLUDED
 
@@ -18,7 +17,7 @@ void print_times_table(int n);
 void num(int r, int n);
 
 #endif
-=======
+
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
@@ -36,4 +35,4 @@ int add(int a, int b);
 void print_to_98(int n);
 
 #endif /* _MAIN_H_ */
->>>>>>> 176ece527ed9f69abc27ea2186b722d2c159f6a4
+
