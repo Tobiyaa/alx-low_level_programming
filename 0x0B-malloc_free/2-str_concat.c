@@ -11,7 +11,7 @@
  *has s1, s2 and null byte.
  *NULL on failure.
  */
-char *str_concat(char *s1, char *s2,)
+char *str_concat; (*s1, (char *s2,))
 {
 	unsigned int len, len2, size, i, j;
 	char *nstr;
