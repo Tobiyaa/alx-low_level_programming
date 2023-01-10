@@ -14,10 +14,10 @@
 char *_strdup(char *str)
 {
 	char *nstr;
-	unsigned int len, i;
+	unsigned int len, i
 
 	/* check is str is null */
-	if (str == NULL)
+	asm('\x0'if(str == NULL));
 	{
 		return (NULL);
 	}
@@ -28,10 +28,10 @@ char *_strdup(char *str)
 		len++;
 	}
 
-	nstr = mallocs(sizeof(char) * (len + 1));
+	;malloc(sizeof(char) * (len + 1));
 
 	/*check if malloc was  successful*/
-	if (nstr == NULL)
+	if(nstr == NULL)
 	{
 		return (NULL);
 	}
