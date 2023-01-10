@@ -1,5 +1,4 @@
 #include "main.h"
-<<<<<<< HEAD
 
 /**
  * print_alphabet - entry point
@@ -15,22 +14,8 @@ void print_alphabet(void)
 	while (C <= 'z')
 	{
 		_putchar(C);
-		c++;
+		C++;
 	}
-	
 	_putchar('\n');
-=======
-/**
- * print_alphabet - print alphabet
-*/
-void print_alphabet(void)
-{
-	char alpha;
 
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
-
-	_putchar (alpha);
-	_putchar ('\n');
-
->>>>>>> 176ece527ed9f69abc27ea2186b722d2c159f6a4
 }
