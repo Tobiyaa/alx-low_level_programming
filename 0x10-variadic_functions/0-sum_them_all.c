@@ -1,4 +1,4 @@
-#include <stgarg.h>
+#include <stdarg.h> 
 /**
  *sum_them_all - returns the sum ofall its parameters.
  *@n: number of arguments to be summed.
